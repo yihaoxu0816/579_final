@@ -1,0 +1,60 @@
+.spaceContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 40px;
+}
+
+.spaceBlock {
+    border: 1px solid black;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 0px 15px 15px 15px;
+}
+
+.images {
+    width: 100%;
+}
+
+.button {
+    border: 1px solid blue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    min-width: 200px;
+    margin: 5px;
+}
+
+.selectedButton {
+    color: white;
+    background-color: blue;
+}
+
+.nextButton {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 17px;
+    margin: 5px;
+    background-color: blue;
+}
+
+.showResultButton {
+    background-color: green;
+    border: none;
+}
+
+button:disabled {
+    opacity: 0.3;
+}
+
+.choiceWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.choiceWrapper > p {
+    display: inline-block;
+    width: 100px;
+}
