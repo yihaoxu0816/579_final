@@ -1,0 +1,68 @@
+.spaceContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px 40px;
+}
+
+.images {
+    width: 100%;
+}
+
+.button {
+    padding: 10px;
+    font-size: 17px;
+    min-width: 200px;
+    margin: 5px;
+}
+
+.nextButton {
+    padding: 10px 20px;
+    font-size: 17px;
+    margin: 5px;
+}
+
+
+.choiceWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.choiceWrapper > p {
+    display: inline-block;
+    width: 100px;
+    margin: 0;
+}
+
+.filtersContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topBarContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.dropDown {
+    min-width: 100px;
+    font-size: 17px;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #D3d3d3;
+}
+
+.favoriteButton {
+    width: 10px;
+}
+
+.break {
+    height: 80px;
+}
