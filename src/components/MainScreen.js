@@ -81,7 +81,7 @@ const MainScreen = () => {
       {(!showResults && !displayAllSpaces) &&
         <>
           <Question question={questionsList[currentQuestion]}
-                    handleAnswer={handleAnswer} 
+                    handleAnswer={handleAnswer}
                     currentChoice={userAnswer[questionsList[currentQuestion].key]}>
           </Question> 
           <Button 
