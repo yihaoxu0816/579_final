@@ -1,3 +1,5 @@
+// List of study spaces to be used in rendering study space components
+
 export const studySpaces = [
     // --------- The Central Campus
     {

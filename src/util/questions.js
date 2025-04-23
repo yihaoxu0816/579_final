@@ -1,3 +1,5 @@
+// List of questions to be used in rendering question components
+
 export const questionsList = [
     {
       id: 0,

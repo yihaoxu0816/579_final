@@ -1,6 +1,11 @@
 import styles from "./styles.module.css";
 import Button from 'react-bootstrap/Button';
 
+// *
+// * @param {object} question - the object of each question in questions.js util
+// * @param {function} handleAnswer - The function that updates userAnswer according to user's response
+// * @param {string/number} currentChoice - Keeps track of user's current choice and updates the style of the button accordingly
+// *
 
 const Question = ({question, handleAnswer, currentChoice}) => {
 

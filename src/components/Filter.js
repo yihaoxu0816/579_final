@@ -1,5 +1,8 @@
 import styles from "./styles.module.css";
-
+// *
+// * @param {object} question - the question that corresponds to each filter option
+// * @param {function} toggleFilter - The function that updates the userFilter state
+// *
 const Filter = ({question, toggleFilter}) => {
 
     return (

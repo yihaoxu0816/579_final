@@ -7,6 +7,11 @@ import { Heart } from 'react-bootstrap-icons';
 import { HeartFill } from 'react-bootstrap-icons';
 import Button from 'react-bootstrap/Button';
 
+// *
+// * @param {object} spaceInfo - the object of each study space
+// * @param {array} userFavorite - The array containing the name of each favorited spaces
+// * @param {function} toggleFavorite - The function that adds or removes favorited spaces
+// *
 const StudySpace = ({spaceInfo, userFavorite, toggleFavorite}) => {
 
     const isFavorite = userFavorite.includes(spaceInfo.name);
